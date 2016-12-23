@@ -19,7 +19,8 @@ sabnzbd.tgz in ~/dist which you can then install on your Drobo.
 docker run --rm --volume ~/dist:/dist droboports/compiler build https://github.com/EarlAbides/sabnzbd.git
 ```
 
-First make sure that you have a [working cross-compiling VM](https://github.com/droboports/droboports.github.io/wiki/Setting-up-a-VM).
+A more involved way is to set up your own cross-compiling VM:
+[working cross-compiling VM](https://github.com/droboports/droboports.github.io/wiki/Setting-up-a-VM).
 
 Log in the VM, pick a temporary folder (e.g., `~/build`), and then do:
 
